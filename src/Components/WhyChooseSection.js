@@ -91,7 +91,7 @@ const Container = styled.div`
       font-size: 16px;
     }
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     margin-top: 0%;
     .heading-para {
       text-align: left;

@@ -64,12 +64,12 @@ const ImageContainer = styled.div`
       margin-top: -20%;
     }
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     width: 50vw;
     position: absolute;
     margin-left: 50%;
     .background {
-      width: 100vw;
+      width: 50vw;
       min-width: 100%;
       max-width: 100%;
       height: 100vw;
@@ -85,13 +85,13 @@ const ImageContainer = styled.div`
       margin-top: -23%;
     }
     .image-phones {
-      width: 100%;
+      width: 50vw;
       height: 100vw;
       position: absolute;
       overflow: hidden;
     }
     .phones-img {
-      width: 55vw;
+      width: 50vw;
       margin-top: -3%;
       margin-left: 17%;
       overflow: hidden;
@@ -155,7 +155,7 @@ const TextAndButtonContainer = styled.div`
       margin-bottom: 5em;
     }
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     width: 50vw;
     margin-left: 10%;
     justify-content: space-between;

@@ -101,7 +101,7 @@ const Card = styled.div`
       margin-left: 1.5em;
     }
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     width: 20vw;
     align-self: flex-start;
     img {

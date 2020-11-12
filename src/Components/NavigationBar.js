@@ -10,6 +10,7 @@ const Container = styled.div`
   margin-top: -1em;
   background-color: #fff;
   position: absolute;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -117,7 +118,7 @@ const Container = styled.div`
       }
     }
   }
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     .logo {
       padding-top: 3%;
       padding-bottom: 3%;
@@ -158,7 +159,7 @@ const Container = styled.div`
         height: 5px;
         position: absolute;
         bottom: 0;
-        top: 4em;
+        top: 3em;
         left: 8px;
         width: 0%;
         background: hsl(136, 65%, 51%);
