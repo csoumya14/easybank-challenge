@@ -245,7 +245,6 @@ const NavigationBar = () => {
 
       <HambImg
         type="image"
-        role="button"
         tabIndex="0"
         src={hamburger}
         className="hamburger-logo"
@@ -259,7 +258,6 @@ const NavigationBar = () => {
       <CloseImg
         src={close}
         type="image"
-        role="button"
         className="close-logo"
         alt="close button"
         title="close button"
